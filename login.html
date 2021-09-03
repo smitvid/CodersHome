@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERS HOME | Login | Sign up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body id="top">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand header-transprent" href="index.html">C<div style="border-width: 1px;height: 18px;width: 18px;" class="spinner-border text-success"><span class="visually-hidden"></span></div>ders H<div style="border-width: 1px;height: 18px;width: 18px;" class="spinner-border text-info"><span class="visually-hidden"></span></div>me</a>
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:smitjoshi814@gmail.com">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/smit-joshi-8028b21b5">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login / signup</a>
+                    </li>
+                </ul>
+                <form class="d-flex" action="404.html">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div style="width: auto; height:-webkit-fill-available;" class="container-fluid alignment gradient pb-lg-5">
+        <div class="form-signin">
+            <nav>
+                <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-signin-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-signin" type="button" role="tab" aria-controls="nav-signin"
+                        aria-selected="true">Sign in</button>
+                    <button class="nav-link" id="nav-signup-tab" data-bs-toggle="tab" data-bs-target="#nav-signup"
+                        type="button" role="tab" aria-controls="nav-signup" aria-selected="false">Sign up</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-signin" role="tabpanel" aria-labelledby="nav-signin-tab">
+                    <form>
+                        <div class="svg-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                class="bi bi-person-circle mb-6" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                            <h1 class="h3 mb-3 fw-normal">sign in</h1>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput" required>Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword" required>Password</label>
+                        </div>
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me" required> Remember me
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="nav-signup" role="tabpanel" aria-labelledby="nav-signup-tab">
+                    <form>
+                        <div class="svg-logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                                class="bi bi-person-circle mb-6" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                            <h1 class="h3 mb-3  fw-normal">sign up</h1>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="fname" placeholder="first name">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="lname" placeholder="last name">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput" required>Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="Password" placeholder="Password">
+                            <label for="Password" required>Password</label>
+                        </div>
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me" required> Remember me
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-dark" type="submit">Sign Up</button>
+                    </form>
+                </div>
+                <div style="margin: 0 0 0 35px;">
+                    <a href="#" style="color:black; margin: inherit;"><i style="font-size: 2rem; "
+                            class="bi bi-facebook"></i></a>
+                    <a href="#" style="color:black; margin: inherit;"><i style="font-size: 2rem; "
+                            class="bi bi-instagram"></i></a>
+                    <a href="#" style="color:black; margin: inherit;"><i style="font-size: 2rem; "
+                            class="bi bi-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p><a href="#top">Back to top</a></p>
+        <p>&copy; 2021 Coders Home, Inc.</p>
+        <a href="https://www.linkedin.com/in/smit-joshi-8028b21b5">About</a> &middot; <a
+            href="mailto:smitjoshi814@gmail.com">Contact</a>&middot; <a href="https://codershome.tk">Blog</a>
+           &middot; <a href="https://resumesmitjoshi.blogspot.com/">Portfolio</a>
+        
+
+    </footer>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

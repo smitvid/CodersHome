@@ -1,0 +1,551 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coders Home | Home</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link href='https://cdn.jsdelivr.net/npm/highlight.js@10.7.3/styles/railscasts.css' rel='stylesheet' /> -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body id="top">
+  <!--Navigaction bar-->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand header-transprent" href="index.html">C<div style="border-width: 1px;height: 18px;width: 18px;" class="spinner-border text-success"><span class="visually-hidden"></span></div>ders H<div style="border-width: 1px;height: 18px;width: 18px;" class="spinner-border text-info"><span class="visually-hidden"></span></div>me</a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:smitjoshi814@gmail.com">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/smit-joshi-8028b21b5">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login / signup</a>
+          </li>
+        </ul>
+        <form class="d-flex" action="404.html">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid gradient">
+    <!--Slider-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <img src="images/sign.jpg" alt="Sign Up" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" class="bd-placeholder-img">
+          <rect width="100%" height="100%" fill="#777" />
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>New Here ?</h1>
+              <p>Then Click the button below and signup <strong>NOw</strong></p>
+              <p><a class="btn btn-lg btn-primary" href="login.html">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/blog.jpg" alt="Blog" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" class="bd-placeholder-img">
+          <rect width="100%" height="100%" fill="#777" />
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Visit Our Blog</h1>
+              <p> </p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.codershome.tk/">Blog</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/work.jpg" alt="Gallery" width="100%" height="100%" aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice" focusable="false" class="bd-placeholder-img">
+          <rect width="100%" height="100%" fill="#777" />
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>See our work</h1>
+              <p>just click the button below .</p>
+              <p><a class="btn btn-lg btn-primary" id="fade" href="#gallary">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Cards-->
+
+    <div class="container">
+      <h2 class="pb-2 border-bottom">Gallery</h2>
+      <a href="#" name="galary" id="gallary"></a>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div id="in" class="col">
+          <div class="card shadow-sm">
+            <img src="images/b1.jpg" alt="html5 syntex" class="bd-placeholder-img card-img-top" width="100%"
+              height="225" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+
+
+            <div class="card-body">
+              <p class="card-text">An article On Android Software davelopment </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#android"
+                    class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="in1" class="col">
+          <div class="card shadow-sm">
+            <img src="images/b2.jpg" alt="Top Tech Failures And Disappointments In Last Two Years"
+              class="bd-placeholder-img card-img-top" width="100%" height="225" aria-label="Placeholder: Thumbnail"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+
+            <div class="card-body">
+              <p class="card-text">An article on SEO (search engine optimization)</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#seo"
+                    class="btn btn-sm btn-outline-secondary">view</button>
+
+                </div>
+                <small class="text-muted">2 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="in2" class="col">
+          <div class="card shadow-sm">
+            <img src="images/b3.jpg" alt="let's code " class="bd-placeholder-img card-img-top" width="100%" height="225"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+
+            <div class="card-body">
+              <p class="card-text">If you are using chrome then you should know about This </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#chrome"
+                    class="btn btn-sm btn-outline-secondary">View</button>
+
+                </div>
+                <small class="text-muted">3 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/b4.jpg" alt="let's became a king of code" class="bd-placeholder-img card-img-top"
+              width="100%" height="225" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+              focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+
+            <div class="card-body">
+              <p class="card-text">AI is intelligence demonstrated by machines </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#ai"
+                    class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">4 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/b5.jpg" alt="let's learn" class="bd-placeholder-img card-img-top" width="100%" height="225"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+
+            <div class="card-body">
+              <p class="card-text">Improve your typing speed at min 80 to 90 words per minute</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#speed"
+                    class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">4 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="images/b6.jpg" alt="hweb design" class="bd-placeholder-img card-img-top" width="100%" height="225"
+              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+
+            <div class="card-body">
+              <p class="card-text">security is the consern now days try this things to protect your data</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#privacy"
+                    class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">5 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <!--Cards-->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Todays Programmer Quotes</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('images/c1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">First, solve the problem. Then, write the code</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+
+                  <img src="images/smit.jpg" alt="Author" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill" />
+                  </svg>
+                  <small>Thailend</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" />
+                  </svg>
+                  <small>2hr</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('images/c2.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">In order to be irreplaceable, one must always be different</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="images/smit.jpg" alt="Author" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill" />
+                  </svg>
+                  <small>India</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" />
+                  </svg>
+                  <small>5hr</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('images/c3.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Code is like humor. When you have to explain it, it’s bad</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="images/smit.jpg" alt="Author" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill" />
+                  </svg>
+                  <small>California</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" />
+                  </svg>
+                  <small>8hr</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--Footer-->
+  <footer>
+    <p><a href="#top">Back to top</a></p>
+    <p>&copy; 2021 Coders Home, Inc.</p>
+    <a href="https://www.linkedin.com/in/smit-joshi-8028b21b5">About</a> &middot; <a
+      href="mailto:smitjoshi814@gmail.com">Contact</a>&middot; <a href="https://codershome.tk">Blog</a>
+      &middot; <a href="https://resumesmitjoshi.blogspot.com/">Portfolio</a>
+        
+    </footer>
+  <!-- models -->
+  <!-- model-1  start-->
+  <div class="modal fade in" id="android" tabindex="-1" aria-labelledby="android" style="display: none;"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="androidTitle">Android Software Development</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="display-6">Android software development is the process by which applications are created for devices
+            running the Android operating system. Google states that[3] "Android apps can be written using Kotlin, Java,
+            and C++ languages" using the Android software development kit (SDK), while using other languages is also
+            possible. All non-JVM languages, such as Go, JavaScript, C, C++ or assembly, need the help of JVM language
+            code, that may be supplied by tools, likely with restricted API support. Some programming languages and
+            tools allow cross-platform app support (i.e. for both Android and iOS). Third party tools, development
+            environments, and language support have also continued to evolve and expand since the initial SDK was
+            released in 2008. The official Android app distribution mechanism to end users is Google Play; it also
+            allows staged gradual app release, as well as distribution of pre-release app versions to testers.</p>
+          <img class="bd-placeholder-img img-thumbnail" src="images/b1.jpg" alt="Android Software development">
+          <br /><br /><br />
+          <p class="display-6">The Android 3.1 platform (also backported to Android 2.3.4) introduces Android Open
+            Accessory support, which allows external USB hardware (an Android USB accessory) to interact with an
+            Android-powered device in a special "accessory" mode. When an Android-powered device is in accessory mode,
+            the connected accessory acts as the USB host (powers the bus and enumerates devices) and the Android-powered
+            device acts as the USB device. Android USB accessories are specifically designed to attach to
+            Android-powered devices and adhere to a simple protocol (Android accessory protocol) that allows them to
+            detect Android-powered devices that support accessory mode.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model 1 end -->
+
+  <!-- model-2  start-->
+  <div class="modal fade in" id="seo" tabindex="-1" aria-labelledby="seo" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="seotitle">SEO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="display-6">Search engine optimization (SEO) is the process of improving the quality and quantity of
+            website traffic to a website or a web page from search engines.[1] SEO targets unpaid traffic (known as
+            "natural" or "organic" results) rather than direct traffic or paid traffic. Unpaid traffic may originate
+            from different kinds of searches, including image search, video search, academic search,[2] news search, and
+            industry-specific vertical search engines.</p>
+          <img class="bd-placeholder-img img-thumbnail" src="images/b2.jpg" alt="seo">
+          <p class="display-6">As an Internet marketing strategy, SEO considers how search engines work, the
+            computer-programmed algorithms that dictate search engine behavior, what people search for, the actual
+            search terms or keywords typed into search engines, and which search engines are preferred by their targeted
+            audience. SEO is performed because a website will receive more visitors from a search engine when websites
+            rank higher on the search engine results page (SERP). These visitors can then potentially be converted into
+            customers.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model 2 end -->
+
+  <!-- model-3  start-->
+  <div class="modal fade in" id="chrome" tabindex="-1" aria-labelledby="chrome" style="display: none;"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="chrometitle">Google chrome</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="display-6">Google Chrome is a cross-platform web browser developed by Google. It was first released
+            in 2008 for Microsoft Windows built with free software components from Apple WebKit and Mozilla Firefox.[12]
+            It was later ported to Linux, macOS, iOS, and Android where it is the default browser built into the OS.[13]
+            The browser is also the main component of Chrome OS, where it serves as the platform for web applications.
+          </p>
+          <img class="bd-placeholder-img img-thumbnail" src="images/b3.jpg" alt="chrome">
+          <p class="display-6">Most of Chrome's source code comes from Google's free and open-source software project
+            Chromium, but Chrome is licensed as proprietary freeware.[11] WebKit was the original rendering engine, but
+            Google eventually forked it to create the Blink engine;[14] all Chrome variants except iOS now use Blink.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model 3 end -->
+
+
+  <!-- model-4  start-->
+  <div class="modal fade in" id="ai" tabindex="-1" aria-labelledby="ai" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="aititle">Artificial intelligence (AI)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="display-6">Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the
+            natural intelligence displayed by humans or animals. Leading AI textbooks define the field as the study of
+            "intelligent agents": any system that perceives its environment and takes actions that maximize its chance
+            of achieving its goals.[a] Some popular accounts use the term "artificial intelligence" to describe machines
+            that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem
+            solving.</p>
+          <img class="bd-placeholder-img img-thumbnail" src="images/b4.jpg" alt="ai">
+          <p class="display-6">AI applications include advanced web search engines, recommendation systems (used by
+            YouTube, Amazon and Netflix), understanding human speech (such as Siri or Alexa), self-driving cars (e.g.
+            Tesla), and competing at the highest level in strategic game systems (such as chess and Go),[2] As machines
+            become increasingly capable, tasks considered to require "intelligence" are often removed from the
+            definition of AI, a phenomenon known as the AI effect.[3] For instance, optical character recognition is
+            frequently excluded from things considered to be AI,[4] having become a routine technology.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model 4 end -->
+
+  <!-- model-5 start-->
+  <div class="modal fade in" id="speed" tabindex="-1" aria-labelledby="speed" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="speedtitle">Type like A Hell</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="display-6">When practicing your typing skills, it’s important to use proper hand placement. To
+            start, keep your fingers positioned over the home row keys (left hand over the A, S, D, and F keys, and the
+            right hand over the J, K, L, and ; keys), with your thumbs hovering over the space bar. From here, you can
+            move your fingers slightly to reach neighboring keys. Your hands should always return this starting
+            position.
+
+            These conventions are meant to help you familiarize yourself with the keyboard. As you become more
+            experienced, you can experiment with different variations of this starting position to find the placement
+            that is most comfortable and natural for you.</p>
+          <img class="bd-placeholder-img img-thumbnail" src="images/b5.jpg" alt="speed">
+          <p class="display-6">Sitting in an upright position is going to make it easier to type faster. If you are used
+            to slouching in your chair or working from the couch, try moving to a straight-backed chair or working at
+            your desk.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model 5 end -->
+
+  <!-- model-6 start-->
+  <div class="modal fade in" id="privacy" tabindex="-1" aria-labelledby="privacy" style="display: none;"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="privacytitle">Privacy things</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="diaplay-6">
+          <ul>
+            <li>21% of online users are the victim of account hacking.</li>
+            <li>11% of online users have been the victim of data theft.</li>
+            <li>12% of online users are the victim of cyberstalking and spying.</li>
+            <li>59% of online users stated that they don’t believe in complete online anonymity.</li>
+            <li>Ironically, 41% of children aged 8-17 have public profiles open for all which is an open invitation for
+              predators and risk for these young ones. Social media is not meant for kids and teens and most sites have
+              a minimum age limit of 18 years.</li>
+            <img class="bd-placeholder-img img-thumbnail" src="images/b6.jpg" alt="privacy">
+            <li>6% of online users had damaged their reputation and 1% of them have to resign from their jobs and leave
+              their careers just because of the online world.</li>
+            <li>6% of online users have reported being a victim of online scams and frauds. But this is just the number
+              of users who have registered their complaints, there are far more people who have lost their money in
+              online scams but have never launched a complaint. Most of them are even unaware of what to do in these
+              instances.</li>
+            <li>19% of people have never turned off their device location tracking option.</li>
+            <li>86% of online users have taken steps to remove their online traces like the old comments and previous
+              search histories. Also, 56% of online users are now concerned about who is accessing their data and to
+              what extent and have changed their account’s privacy settings.</li>
+            <li>68% of online users are not satisfied with the present cybersecurity laws and have reservations
+              regarding their implementations.</li>
+          </ul>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- model 6 end -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- <script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js' />
+  <script src='https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js@2.8.0/src/highlightjs-line-numbers.min.js' />
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <script>
+    hljs.initLineNumbersOnLoad();
+  </script> -->
+</body>
+
+</html>
